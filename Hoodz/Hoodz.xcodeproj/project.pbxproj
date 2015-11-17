@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C5F19CD1BFA581A0080A49A /* AddPostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C5F19CC1BFA581A0080A49A /* AddPostVC.swift */; };
 		6CA9EC421BF8F80300546E75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9EC411BF8F80300546E75 /* AppDelegate.swift */; };
 		6CA9EC441BF8F80300546E75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9EC431BF8F80300546E75 /* ViewController.swift */; };
 		6CA9EC471BF8F80300546E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CA9EC451BF8F80300546E75 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C5F19CC1BFA581A0080A49A /* AddPostVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddPostVC.swift; sourceTree = "<group>"; };
 		6CA9EC3E1BF8F80300546E75 /* Hoodz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hoodz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CA9EC411BF8F80300546E75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6CA9EC431BF8F80300546E75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6C5F19CB1BFA57D60080A49A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6CA9EC431BF8F80300546E75 /* ViewController.swift */,
+				6C5F19CC1BFA581A0080A49A /* AddPostVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		6CA9EC351BF8F80300546E75 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +69,11 @@
 		6CA9EC401BF8F80300546E75 /* Hoodz */ = {
 			isa = PBXGroup;
 			children = (
-				6CA9EC561BF9048300546E75 /* View */,
 				6CA9EC531BF8F8B300546E75 /* Model */,
+				6CA9EC561BF9048300546E75 /* View */,
+				6C5F19CB1BFA57D60080A49A /* Controller */,
 				6CA9EC411BF8F80300546E75 /* AppDelegate.swift */,
-				6CA9EC431BF8F80300546E75 /* ViewController.swift */,
-				6CA9EC451BF8F80300546E75 /* Main.storyboard */,
 				6CA9EC481BF8F80300546E75 /* Assets.xcassets */,
-				6CA9EC4A1BF8F80300546E75 /* LaunchScreen.storyboard */,
 				6CA9EC4D1BF8F80300546E75 /* Info.plist */,
 			);
 			path = Hoodz;
@@ -81,6 +90,8 @@
 		6CA9EC561BF9048300546E75 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				6CA9EC4A1BF8F80300546E75 /* LaunchScreen.storyboard */,
+				6CA9EC451BF8F80300546E75 /* Main.storyboard */,
 				6CA9EC571BF9075F00546E75 /* PostCell.swift */,
 			);
 			name = View;
@@ -159,6 +170,7 @@
 			files = (
 				6CA9EC551BF8F8C200546E75 /* Post.swift in Sources */,
 				6CA9EC441BF8F80300546E75 /* ViewController.swift in Sources */,
+				6C5F19CD1BFA581A0080A49A /* AddPostVC.swift in Sources */,
 				6CA9EC421BF8F80300546E75 /* AppDelegate.swift in Sources */,
 				6CA9EC581BF9075F00546E75 /* PostCell.swift in Sources */,
 			);
@@ -310,6 +322,7 @@
 				6CA9EC521BF8F80300546E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
